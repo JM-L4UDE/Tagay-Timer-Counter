@@ -43,4 +43,4 @@ Kini usa ka web-based nga app para sa mga barkada nga magtagay. Naa kini'y:
 - Web browser (Chrome, Firefox, Edge, Safari)
 
 ---
-
+VIDEO CREDITS: Shamcey TV 
