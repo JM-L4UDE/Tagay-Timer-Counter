@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tagay Timer & Counter</title>
+<link rel="stylesheet" href="style.css">
+<!-- SweetAlert2 CDN -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+
+<h1>🍻 Tagay Timer & Counter 🍻</h1>
+
+<div class="setup">
+    <input type="text" id="playerName" placeholder="Pangan sa Ka-tagay">
+    <button onclick="addPlayer()">Add Ka-tagay</button>
+    <br><br>
+
+    <label>Minutes:</label>
+    <select id="minutesSelect"></select>
+    <label>Seconds:</label>
+    <select id="secondsSelect"></select>
+    <br><br>
+
+    <button onclick="startTagay()">Start Tagay</button>
+</div>
+
+<div id="gameArea" style="display:none;">
+    <div id="timer">00</div>
+    <div id="currentPlayer"></div>
+
+    <div class="controls">
+        <button id="drankBtn" onclick="playerDrank()">Ni Inom Nako!</button>
+        <div class="secondary-controls">
+            <button id="skipBtn" onclick="skipTurn()">Pass</button>
+            <button id="pauseBtn" onclick="pauseTimer()">Taympers</button>
+            <button id="resetBtn" onclick="confirmReset()">Reset</button>
+        </div>
+    </div>
+
+    <!-- Video area -->
+    <div id="videoArea" style="display:none;">
+        <video id="tagayVideo" src="tagay.mp4" preload="auto"></video>
+    </div>
+</div>
+
+<table id="playerTable">
+    <tr>
+        <th>Mga Parahubog</th>
+        <th>Pila na ka Tagay</th>
+        <th>Nahabilin nga Pass</th>
+    </tr>
+</table>
+
+<footer class="foot">
+    Bodyokol | BCryPT5
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
