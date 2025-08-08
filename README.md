@@ -41,6 +41,8 @@ Kini usa ka web-based nga app para sa mga barkada nga magtagay. Naa kini'y:
 
 ## Mga Kinahanglanon
 - Web browser (Chrome, Firefox, Edge, Safari)
+Access the app:
+- https://jm-l4ude.github.io/Tagay-Timer-Counter/
 
 ---
 VIDEO CREDITS: Shamcey TV 
