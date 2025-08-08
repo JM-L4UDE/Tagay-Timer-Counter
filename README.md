@@ -15,8 +15,8 @@ Kini usa ka web-based nga app para sa mga barkada nga magtagay. Naa kini'y:
 
 ### 1. Pag-setup sa mga Players
 - I-type ang ngalan sa player sa **Pangan sa Ka-tagay** field.
-- I-klik ang **Add Player**.
-- Ipadayon hangtod tanan players nadugang.
+- I-klik ang **Add Ka-tagay**.
+- Ipadayon hangtod tanan Ka-tagay madugang.
 
 ### 2. Pagpili sa Oras
 - Puwede ka mopili sa **Minutes** ug **Seconds** para sa countdown timer.
@@ -25,7 +25,7 @@ Kini usa ka web-based nga app para sa mga barkada nga magtagay. Naa kini'y:
 - I-klik ang **Start Tagay** aron magsugod ang timer.
 - Ang app automatic nga mopakita kinsa ang sunod nga player.
 
-### 4. Sa Turn sa Player
+### 4. Sa Turno sa Player
 - Kung ang player nakainom, i-klik ang **Ni Inom Nako!**.
 - Kung gusto moskip ug turn, i-klik ang **Pass** (max 5 skips lang per player).
 
